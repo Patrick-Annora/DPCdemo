@@ -478,128 +478,131 @@ export default function NextSteps() {
           </p>
         </div>
 
-        <div className="grid gap-6 lg:grid-cols-3 items-stretch">
+        <div className="relative space-y-0">
+          {/* Vertical timeline line */}
+          <div className="absolute left-6 top-10 bottom-10 w-px bg-border" />
+
           {/* Phase 1 */}
-          <Card className="border-t-4 border-t-emerald-400 flex flex-col">
-            <CardHeader>
-              <div className="flex items-center gap-3">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-sm">
-                  1
+          <div className="relative flex gap-6 pb-8">
+            <div className="flex flex-col items-center z-10">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-lg shadow-md">
+                1
+              </span>
+            </div>
+            <div className="flex-1 pt-1">
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-base font-semibold">Quick Wins</h3>
+                <span className="inline-flex items-center rounded-full bg-emerald-100 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-700">
+                  Phase 1
                 </span>
-                <div>
-                  <CardTitle className="text-base">
-                    Phase 1: Quick Wins
-                  </CardTitle>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-medium text-emerald-700 mt-1">
-                    Phase 1
-                  </span>
-                </div>
               </div>
-            </CardHeader>
-            <CardContent className="space-y-2 flex-1">
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                  Structure existing spreadsheets with Power Query
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                  Add statistical baselines (Excel FORECAST.ETS) for top 20 SKUs
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                  Formalize IHS-to-DPC part mapping
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                  Start measuring WAPE at product family level
-                </li>
-              </ul>
-              <div className="rounded-md bg-emerald-50 px-3 py-2 mt-auto">
-                <p className="text-xs font-medium text-emerald-700">
-                  Cost: ~$0 in tools
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+              <Card className="border-l-4 border-l-emerald-400">
+                <CardContent className="p-4 space-y-3">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Structure existing spreadsheets with Power Query
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Add statistical baselines (Excel FORECAST.ETS) for top 20 SKUs
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Formalize IHS-to-DPC part mapping
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Start measuring WAPE at product family level
+                    </li>
+                  </ul>
+                  <div className="rounded-md bg-emerald-50 px-3 py-2">
+                    <p className="text-xs font-medium text-emerald-700">
+                      Cost: ~$0 in tools
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
 
           {/* Phase 2 */}
-          <Card className="border-t-4 border-t-amber-400 flex flex-col">
-            <CardHeader>
-              <div className="flex items-center gap-3">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-sm">
-                  2
+          <div className="relative flex gap-6 pb-8">
+            <div className="flex flex-col items-center z-10">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-lg shadow-md">
+                2
+              </span>
+            </div>
+            <div className="flex-1 pt-1">
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-base font-semibold">Structured Improvement</h3>
+                <span className="inline-flex items-center rounded-full bg-amber-100 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-amber-700">
+                  Phase 2
                 </span>
-                <div>
-                  <CardTitle className="text-base">
-                    Phase 2: Structured Improvement
-                  </CardTitle>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-medium text-amber-700 mt-1">
-                    Phase 2
-                  </span>
-                </div>
               </div>
-            </CardHeader>
-            <CardContent className="flex-1">
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                  Power BI dashboard for forecast vs. actual tracking
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                  Formal S&OP process (monthly 1-hour meeting)
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                  IHS variance monitoring (automated alerts)
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                  Evaluate purpose-built tool (Netstock, DemandCaster)
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
+              <Card className="border-l-4 border-l-amber-400">
+                <CardContent className="p-4">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      Power BI dashboard for forecast vs. actual tracking
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      Formal S&OP process (monthly 1-hour meeting)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      IHS variance monitoring (automated alerts)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      Evaluate purpose-built tool (Netstock, DemandCaster)
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
 
           {/* Phase 3 */}
-          <Card className="border-t-4 border-t-blue-400 flex flex-col">
-            <CardHeader>
-              <div className="flex items-center gap-3">
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-sm">
-                  3
+          <div className="relative flex gap-6">
+            <div className="flex flex-col items-center z-10">
+              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-dpc-red text-white font-bold text-lg shadow-md">
+                3
+              </span>
+            </div>
+            <div className="flex-1 pt-1">
+              <div className="flex items-center gap-3 mb-2">
+                <h3 className="text-base font-semibold">Operationalization</h3>
+                <span className="inline-flex items-center rounded-full bg-blue-100 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-blue-700">
+                  Phase 3
                 </span>
-                <div>
-                  <CardTitle className="text-base">
-                    Phase 3: Operationalization
-                  </CardTitle>
-                  <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-700 mt-1">
-                    Phase 3
-                  </span>
-                </div>
               </div>
-            </CardHeader>
-            <CardContent className="flex-1">
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
-                  Statistical model selection by demand pattern
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
-                  Formalized EDI-to-forecast blending
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
-                  Capacity model integration
-                </li>
-                <li className="flex items-start gap-2">
-                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
-                  Program lifecycle tracking dashboard
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
+              <Card className="border-l-4 border-l-blue-400">
+                <CardContent className="p-4">
+                  <ul className="space-y-2 text-sm">
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
+                      Statistical model selection by demand pattern
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
+                      Formalized EDI-to-forecast blending
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
+                      Capacity model integration
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
+                      Program lifecycle tracking dashboard
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
         </div>
       </section>
 
