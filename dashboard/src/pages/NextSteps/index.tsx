@@ -502,6 +502,14 @@ export default function NextSteps() {
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
                       Start measuring WAPE at product family level
                     </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Secure cloud hosting (Azure) with authenticated pilot environment
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
+                      Identify AS/400 hardware model and begin legacy data extraction planning
+                    </li>
                   </ul>
                   <div className="rounded-md bg-emerald-50 px-3 py-2">
                     <p className="text-xs font-medium text-emerald-700">
@@ -532,11 +540,19 @@ export default function NextSteps() {
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                      Power BI dashboard for forecast vs. actual tracking
+                      Epicor API integration for automated data exchange
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                      Formal S&OP process (monthly 1-hour meeting)
+                      Automated quoting via decision trees (target: 5 days → 5 minutes)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      AS/400 legacy data extraction (480K+ pages from physical tapes)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
+                      Financial data remediation — resolve COGS/Excel workarounds in CMS
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
@@ -544,7 +560,7 @@ export default function NextSteps() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-amber-500" />
-                      Evaluate purpose-built tool (Netstock, DemandCaster)
+                      Formal S&OP process (monthly 1-hour meeting)
                     </li>
                   </ul>
                 </CardContent>
@@ -579,7 +595,11 @@ export default function NextSteps() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
-                      Capacity model integration
+                      Capacity model integration (16 presses, 60% break-even target)
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
+                      Edge data center market opportunity modeling (ICF foam)
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-blue-500" />
