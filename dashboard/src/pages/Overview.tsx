@@ -242,9 +242,10 @@ export default function Overview() {
             </span>{" "}
             last year — an extraordinary result that reflects deep domain
             knowledge built over years. Our goal isn't to replace that
-            expertise — it's to extend her reach from 6 weeks to 16 weeks,
-            automate the 20+ hours of weekly data work, and provide better
-            tools for the judgment calls only she can make.
+            expertise — it's to automate the 20+ hours of manual work,
+            extend her forecast accuracy further into the future, and provide
+            better tools so she can spend less time on repetitive data tasks
+            and more time on strategic decision-making.
           </p>
         </div>
       </section>
