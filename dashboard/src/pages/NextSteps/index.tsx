@@ -504,7 +504,7 @@ export default function NextSteps() {
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
-                      Secure cloud hosting (Azure) with authenticated pilot environment
+                      Secure cloud hosting with authenticated pilot environment
                     </li>
                     <li className="flex items-start gap-2">
                       <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-500" />
