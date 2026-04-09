@@ -27,35 +27,39 @@ async def create_tables() -> None:
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
 
-    # Seed open questions and action items as tickets (only if DB is empty)
-    async with async_session() as session:
-        from sqlalchemy import select, func
+    # Seed open questions and action items (skip any that already exist by message)
+    seed_tickets = [
+        # Open questions
+        {"ticket_type": "question", "submitted_by": "Annora", "status": "open",
+            "message": "[Open Question] Are the metrics in this analysis the right targets? Which matter most?"},
+        {"ticket_type": "question", "submitted_by": "Annora", "status": "open",
+            "message": "[Open Question] What's the primary forecasting use case — procurement (buying resin) or capacity (scheduling machines)?"},
+        {"ticket_type": "question", "submitted_by": "Annora", "status": "open",
+            "message": "[Open Question] Does DPC have raw material cost adjustment clauses? (The 15% Hanwha tariff matters)"},
+        {"ticket_type": "question", "submitted_by": "Annora", "status": "open",
+            "message": '[Open Question] Which finished goods are the "vital few"? (~20% of parts drive ~80% of revenue)'},
+        {"ticket_type": "question", "submitted_by": "Annora", "status": "open",
+            "message": '[Open Question] What does "inverted" mean in your four-algorithm framework? (Standard is smooth/erratic/intermittent/lumpy)'},
+        # Action items from Wednesday meeting
+        {"ticket_type": "other", "submitted_by": "Patrick", "status": "in_progress",
+            "message": "[Action Item] Host the application and set up user accounts"},
+        {"ticket_type": "other", "submitted_by": "Patrick", "status": "in_progress",
+            "message": "[Action Item] Send the application access link"},
+        {"ticket_type": "other", "submitted_by": "Patrick", "status": "in_progress",
+            "message": "[Action Item] Integrate the feedback system into the app"},
+        {"ticket_type": "other", "submitted_by": "Tiffany", "status": "open",
+            "message": "[Action Item] Provide the AS400 hardware model and version number"},
+        {"ticket_type": "other", "submitted_by": "Tiffany & Frank", "status": "open",
+            "message": "[Action Item] Review the app and provide feedback"},
+    ]
 
-        count = (await session.execute(select(func.count(SupportTicket.id)))).scalar() or 0
-        if count == 0:
-            seed_tickets = [
-                # Open questions
-                SupportTicket(ticket_type="question", submitted_by="Annora", status="open",
-                    message="[Open Question] Are the metrics in this analysis the right targets? Which matter most?"),
-                SupportTicket(ticket_type="question", submitted_by="Annora", status="open",
-                    message="[Open Question] What's the primary forecasting use case — procurement (buying resin) or capacity (scheduling machines)?"),
-                SupportTicket(ticket_type="question", submitted_by="Annora", status="open",
-                    message="[Open Question] Does DPC have raw material cost adjustment clauses? (The 15% Hanwha tariff matters)"),
-                SupportTicket(ticket_type="question", submitted_by="Annora", status="open",
-                    message='[Open Question] Which finished goods are the "vital few"? (~20% of parts drive ~80% of revenue)'),
-                SupportTicket(ticket_type="question", submitted_by="Annora", status="open",
-                    message='[Open Question] What does "inverted" mean in your four-algorithm framework? (Standard is smooth/erratic/intermittent/lumpy)'),
-                # Action items from Wednesday meeting
-                SupportTicket(ticket_type="other", submitted_by="Patrick", status="in_progress",
-                    message="[Action Item] Host the application and set up user accounts"),
-                SupportTicket(ticket_type="other", submitted_by="Patrick", status="in_progress",
-                    message="[Action Item] Send the application access link"),
-                SupportTicket(ticket_type="other", submitted_by="Patrick", status="in_progress",
-                    message="[Action Item] Integrate the feedback system into the app"),
-                SupportTicket(ticket_type="other", submitted_by="Tiffany", status="open",
-                    message="[Action Item] Provide the AS400 hardware model and version number"),
-                SupportTicket(ticket_type="other", submitted_by="Tiffany & Frank", status="open",
-                    message="[Action Item] Review the app and provide feedback"),
-            ]
-            session.add_all(seed_tickets)
-            await session.commit()
+    async with async_session() as session:
+        from sqlalchemy import select
+
+        for ticket_data in seed_tickets:
+            exists = (await session.execute(
+                select(SupportTicket.id).where(SupportTicket.message == ticket_data["message"])
+            )).scalar()
+            if not exists:
+                session.add(SupportTicket(**ticket_data))
+        await session.commit()
