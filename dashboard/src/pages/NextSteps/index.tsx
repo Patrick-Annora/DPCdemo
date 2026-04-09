@@ -18,7 +18,6 @@ import {
   Zap,
   BarChart3,
   Brain,
-  MessageSquare,
   Database,
   TrendingUp,
   Settings,
@@ -80,18 +79,6 @@ function accuracyCellClass(value: string): string {
   if (num >= 75) return "bg-amber-50";
   return "bg-red-50";
 }
-
-// ── Open Questions ─────────────────────────────────────────────────────────
-const questions = [
-  "Are the metrics in this analysis the right targets? Which matter most?",
-  "What's the primary forecasting use case -- procurement (buying resin) or capacity (scheduling machines)?",
-  "Does DPC have raw material cost adjustment clauses? (The 15% Hanwha tariff matters)",
-  'Which finished goods are the "vital few"? (~20% of parts drive ~80% of revenue)',
-  "What exactly does the 0.2% number measure? (Annual revenue? Monthly product family?)",
-  "Is the YFAI relationship stable? Which programs flow through consolidating plants?",
-  "What's the status of the Slate Automotive opportunity?",
-  'What does "inverted" mean in your four-algorithm framework? (Standard is smooth/erratic/intermittent/lumpy)',
-];
 
 // ── Action Items from Wednesday Meeting ────────────────────────────────────
 const actionItems = [
@@ -608,33 +595,7 @@ export default function NextSteps() {
 
       <Separator />
 
-      {/* ── 8. Open Questions ──────────────────────────────────────────── */}
-      <section className="space-y-4 rounded-2xl bg-slate-50/60 p-6 -mx-2">
-        <div className="flex items-center gap-2">
-          <MessageSquare className="h-5 w-5 text-muted-foreground" />
-          <h2 className="text-lg font-semibold tracking-tight">
-            Open Questions
-          </h2>
-        </div>
-
-        <div className="grid gap-3 md:grid-cols-2">
-          {questions.map((q, i) => (
-            <div
-              key={i}
-              className="flex items-start gap-3 rounded-lg border bg-white p-3"
-            >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-dpc-red text-white text-xs font-bold tabular-nums">
-                {i + 1}
-              </span>
-              <span className="text-sm leading-relaxed pt-0.5">{q}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <Separator />
-
-      {/* ── 9. Action Items from Wednesday Meeting ─────────────────────── */}
+      {/* ── 8. Action Items from Wednesday Meeting ─────────────────────── */}
       <section className="space-y-4">
         <div className="flex items-center gap-2">
           <CheckCircle className="h-5 w-5 text-muted-foreground" />
