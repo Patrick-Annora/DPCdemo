@@ -469,8 +469,13 @@ export default function NextSteps() {
       <section className="space-y-6">
         <div>
           <h2 className="text-lg font-semibold tracking-tight">
-            Implementation Timeline
+            Implementation Phases
           </h2>
+          <p className="mt-1 text-sm text-muted-foreground">
+            Once we receive the remaining data, we'll provide the full roadmap
+            with timeline estimates and pricing for the initial valuable product
+            delivery.
+          </p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-3 items-stretch">
