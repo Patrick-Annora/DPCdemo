@@ -15,7 +15,6 @@ import {
   ArrowRight,
   ArrowDown,
   Target,
-  Clock,
   Zap,
   BarChart3,
   Brain,
@@ -44,7 +43,7 @@ const dataValueChain = [
   {
     data: "Historical Sales Data",
     capability: "Statistical Demand Forecasts",
-    value: "Extend from 6-week to 16-week horizon",
+    value: "Extend forecast accuracy further into the future",
     icon: BarChart3,
   },
   {
@@ -69,9 +68,9 @@ const dataValueChain = [
 
 // ── Accuracy targets ────────────────────────────────────────────────────────
 const accuracyTargets = [
-  { horizon: "4 weeks", plant: "97-99%", customer: "95-98%", part: "90-95%", note: "EDI releases are near-firm" },
-  { horizon: "8 weeks", plant: "92-96%", customer: "88-94%", part: "80-90%", note: "IHS data starts adding signal" },
-  { horizon: "16 weeks", plant: "88-94%", customer: "82-90%", part: "72-85%", note: "IHS-linked parts at high end" },
+  { horizon: "Near-term", plant: "97-99%", customer: "95-98%", part: "90-95%", note: "EDI releases are near-firm" },
+  { horizon: "Mid-range", plant: "92-96%", customer: "88-94%", part: "80-90%", note: "IHS data starts adding signal" },
+  { horizon: "Long-range", plant: "88-94%", customer: "82-90%", part: "72-85%", note: "IHS-linked parts at high end" },
 ];
 
 // Helper to determine accuracy cell color
@@ -82,7 +81,7 @@ function accuracyCellClass(value: string): string {
   return "bg-red-50";
 }
 
-// ── Questions for Wednesday ─────────────────────────────────────────────────
+// ── Open Questions ─────────────────────────────────────────────────────────
 const questions = [
   "Are the metrics in this analysis the right targets? Which matter most?",
   "What's the primary forecasting use case -- procurement (buying resin) or capacity (scheduling machines)?",
@@ -92,6 +91,15 @@ const questions = [
   "Is the YFAI relationship stable? Which programs flow through consolidating plants?",
   "What's the status of the Slate Automotive opportunity?",
   'What does "inverted" mean in your four-algorithm framework? (Standard is smooth/erratic/intermittent/lumpy)',
+];
+
+// ── Action Items from Wednesday Meeting ────────────────────────────────────
+const actionItems = [
+  { owner: "Patrick", task: "Host the application and set up user accounts" },
+  { owner: "Patrick", task: "Send the application access link" },
+  { owner: "Patrick", task: "Integrate the feedback system into the app" },
+  { owner: "Tiffany", task: "Provide the AS400 hardware model and version number" },
+  { owner: "Tiffany & Frank", task: "Review the app and provide feedback" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -191,7 +199,7 @@ export default function NextSteps() {
                 </p>
                 <ul className="space-y-2">
                   {[
-                    "16-week statistical demand forecast",
+                    "Extended statistical demand forecast",
                     "Material requirements planning",
                     "Early warning system",
                     "Capacity utilization model",
@@ -369,7 +377,7 @@ export default function NextSteps() {
             </CardHeader>
             <CardContent className="space-y-3 flex-1">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-700">
-                <Clock className="h-3 w-3" /> Weeks 1-6
+                Phase 1
               </span>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Use existing firm customer orders from EDI releases
@@ -402,7 +410,7 @@ export default function NextSteps() {
             </CardHeader>
             <CardContent className="space-y-3 flex-1">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700">
-                <Clock className="h-3 w-3" /> Weeks 4-12
+                Phase 2
               </span>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Combine time series models with S&P Global Mobility vehicle
@@ -434,7 +442,7 @@ export default function NextSteps() {
             </CardHeader>
             <CardContent className="space-y-3 flex-1">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-semibold text-amber-700">
-                <Clock className="h-3 w-3" /> Weeks 8-16
+                Phase 3
               </span>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Tiffany's domain expertise formally structured against
@@ -453,48 +461,6 @@ export default function NextSteps() {
           </Card>
         </div>
 
-        {/* Horizon blend diagram */}
-        <Card>
-          <CardContent className="space-y-4 p-6">
-            <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
-              Forecast Horizon Blend
-            </p>
-            <div className="space-y-2">
-              {/* Colored bar segments */}
-              <div className="flex h-12 w-full overflow-hidden rounded-full">
-                {/* Firm EDI: weeks 1-6 */}
-                <div
-                  className="flex items-center justify-center text-xs font-semibold text-white bg-emerald-400"
-                  style={{ width: `${(6 / 16) * 100}%` }}
-                >
-                  Firm EDI Orders
-                </div>
-                {/* Blend zone: weeks 7-12 */}
-                <div
-                  className="flex items-center justify-center text-xs font-semibold text-white bg-amber-400"
-                  style={{ width: `${(6 / 16) * 100}%` }}
-                >
-                  Blend Zone
-                </div>
-                {/* Forecast/IHS: weeks 13-16 */}
-                <div
-                  className="flex items-center justify-center text-xs font-semibold text-white bg-blue-400"
-                  style={{ width: `${(4 / 16) * 100}%` }}
-                >
-                  Forecast/IHS
-                </div>
-              </div>
-              {/* Week number labels */}
-              <div className="flex text-[10px] text-muted-foreground tabular-nums">
-                {Array.from({ length: 16 }, (_, i) => (
-                  <div key={i} className="flex-1 text-center">
-                    {i + 1}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </CardContent>
-        </Card>
       </section>
 
       <Separator />
@@ -520,7 +486,7 @@ export default function NextSteps() {
                     Phase 1: Quick Wins
                   </CardTitle>
                   <span className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-0.5 text-xs font-medium text-emerald-700 mt-1">
-                    <Clock className="h-3 w-3" /> Months 1-3
+                    Phase 1
                   </span>
                 </div>
               </div>
@@ -564,7 +530,7 @@ export default function NextSteps() {
                     Phase 2: Structured Improvement
                   </CardTitle>
                   <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-medium text-amber-700 mt-1">
-                    <Clock className="h-3 w-3" /> Months 3-6
+                    Phase 2
                   </span>
                 </div>
               </div>
@@ -603,7 +569,7 @@ export default function NextSteps() {
                     Phase 3: Operationalization
                   </CardTitle>
                   <span className="inline-flex items-center gap-1 rounded-full bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-700 mt-1">
-                    <Clock className="h-3 w-3" /> Months 6-12
+                    Phase 3
                   </span>
                 </div>
               </div>
@@ -634,12 +600,12 @@ export default function NextSteps() {
 
       <Separator />
 
-      {/* ── 8. Questions for DPC ─────────────────────────────────────────── */}
+      {/* ── 8. Open Questions ──────────────────────────────────────────── */}
       <section className="space-y-4 rounded-2xl bg-slate-50/60 p-6 -mx-2">
         <div className="flex items-center gap-2">
           <MessageSquare className="h-5 w-5 text-muted-foreground" />
           <h2 className="text-lg font-semibold tracking-tight">
-            Questions to Discuss on Wednesday
+            Open Questions
           </h2>
         </div>
 
@@ -655,6 +621,41 @@ export default function NextSteps() {
               <span className="text-sm leading-relaxed pt-0.5">{q}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      <Separator />
+
+      {/* ── 9. Action Items from Wednesday Meeting ─────────────────────── */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-2">
+          <CheckCircle className="h-5 w-5 text-muted-foreground" />
+          <h2 className="text-lg font-semibold tracking-tight">
+            Action Items from Wednesday Meeting
+          </h2>
+        </div>
+
+        <div className="rounded-xl border border-border/50 overflow-hidden bg-white">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="bg-slate-50 border-b border-border/50">
+                <th className="text-left px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-muted-foreground w-40">Owner</th>
+                <th className="text-left px-4 py-2.5 text-xs font-medium uppercase tracking-wider text-muted-foreground">Action Item</th>
+              </tr>
+            </thead>
+            <tbody>
+              {actionItems.map((item, i) => (
+                <tr key={i} className="border-b border-border/30 hover:bg-slate-50/50 transition-colors">
+                  <td className="px-4 py-3">
+                    <span className="inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-700">
+                      {item.owner}
+                    </span>
+                  </td>
+                  <td className="px-4 py-3 text-sm">{item.task}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </section>
     </div>
