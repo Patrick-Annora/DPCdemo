@@ -1,0 +1,304 @@
+Meeting Title: Dpc 1
+Date: Apr 6
+
+Transcript:
+ 
+Speaker A: One mega page that had like 90 different things on it and like. 
+Speaker B: No, our system is better refined than that at the end significantly, because we do pull the data. We pull it into Epicor. We've had some recent visibility to the data being way bad off, but it was personnel driven. It was factor in your problems or lack of whatever. But we do pull the data manually. It's like, like you said, we can't have computers out there. They're future state. I'm going to be using a system whether it's by the manufacturers of the new equipment or like a Vorin system. If you're familiar or not familiar, I don't know. But it pulls data off the machines real time. Something that can feed straight into the core. So it's real data, live data, it can't be messed up. But our data is the input and the usage of it is a little cleaner than what they've got at Springfield Marine. Still a lot of inaccuracies based on some of it. Was Epicor not being set up correctly? I believe so. A lot of it is still personal driven. So I don't know if that answered your question. Yeah, I'm rambling about complaints right now, I think is what I'm doing instead of directing efficient information. 
+Speaker C: But no, it's good that. It's good that you guys have a lot of this data and you know whether it's. Whether it's inaccurate or accurate. In some senses, a lot of it's 
+Speaker B: pretty accurate when it comes to the inventory and that is if you had to weigh out all of the data. You've got inventory on this side of the pendulum and everything else over here and that's the most important one and it's the one that's off more than anything. But I've seen worse. 
+Speaker A: What was the stuff in the old system that you guys hadn't pulled? There's just historical stuff or what. 
+Speaker B: What was it so far? Skus or inventory or what we did. 
+Speaker A: Yeah. Something you had said. 
+Speaker D: So our. Just our shipping data which is essentially what you're going to need. Correct. Our sales data did not get. Did not. Exporting out of CMS was not. 
+Speaker C: Yeah. So you don't have your previous. 
+Speaker D: You don't have our previous. Yeah. 
+Speaker B: Was that because of the system itself or because of the few years back, the hack? 
+Speaker D: Both. 
+Speaker C: Both. 
+Speaker D: So there's no way to. There was no way in our old CMS to even export out of Excel or into an Excel bucket. 
+Speaker A: Yeah. 
+Speaker D: So that was a very, very manual process. 
+Speaker A: Oh, is that still the case not 
+Speaker B: in Epicor cms, it was just from cms but we never could pull it out of cms. So a lot of our Epicorp. 
+Speaker A: So you don't have any of the historical trends of what wasn't existent for. 
+Speaker B: And a lot of it has to do with how that program was managed anyway. 
+Speaker D: I do have. When I went through whenever we were doing the implementation and pulling the documents, I have everything that I pulled for probably five years that I will send you which would be just sales data, but it will not be customer driven sales data. 
+Speaker C: Yeah. Is it on product level or. 
+Speaker D: It is on product. 
+Speaker B: Oh, cool. 
+Speaker C: Yeah. Nice. And then the map of product to build material. Is that there? Yeah. Nice. 
+Speaker B: That's. 
+Speaker C: That's more than. More than most. 
+Speaker D: Yeah. I create. I sat down and that's the one thing that I worked on for forever to be able to forecast. 
+Speaker B: Yeah. 
+Speaker D: Because it was hey Tiffany, give me a forecast. Not him other. And I'm like, I can guess but it's not going to be right. I'm going to have to build a historical to be able to move forward. 
+Speaker C: Are you currently building in any like environment or like economical like forecast into your forecasts in terms of like the expectations for the industry? 
+Speaker B: No, but then. No, that's what I heavily on my mind. 
+Speaker D: IHS global forecast. I have a conference that I'm going to what, three weeks, something like that. Oh man. Yeah, we're supposed to go with me. I do have a. So I'm going to a conference very, very much based on automotive. Because it. 
+Speaker B: It. 
+Speaker D: The trends do change continuously. So our IHS global forecast, which is what I would like to get to you, that's going to be major. So that is the economical trend for the automotive world. On the ICF world and the packaging world. There is no true trend on that that we have. But always willing to. Yeah, I'm not saying there's not. It's not something we currently have. 
+Speaker C: Yeah. 
+Speaker B: Packaging I guess we can pull. And I'm gonna be. I'm gonna have to be the one to get that because when I talk to the ICF companies about it, they're like their head explodes. They don't have a clue what I'm getting at. 
+Speaker C: Yeah. I mean with the packaging stuff, that's more indicative of like just the overall economy itself because like everything needs packaging. I would guess. So is there any. So it's. It's the foam that goes into the package that like protects whatever's in the package. Is that what you guys are. 
+Speaker B: And that's so historically, yes. So we still call it packaging. 
+Speaker A: We do. 
+Speaker B: I don't know if you went through. 
+Speaker D: I'll be right back and I'll go grab something just to visual see. I think that's important. 
+Speaker B: Yeah. We've got eps, which is expanded polystyrene most people call Styrofoam. We got epp, which expanded polypropylene, which is all of our automotive products. And the white material, the EPs we call packaging, what we actually do that is classified as packaging is almost nothing now, but it's still packaging incorporates our building industry which is the enslaved concrete forms. Even though it falls in the packaging category, it doesn't because it's not a packaging commodity like cheap, cheap packaging like you can get done in Mexico and China and whatever. But the coolers, our coolers are specialty coolers for the medical industry and for the higher end food shipping industry. 
+Speaker C: It's. It's the foam that goes in the. 
+Speaker B: Like it is the actual box itself. 
+Speaker C: Oh, it's a box itself. 
+Speaker B: We make coolers, but they're not coolers. Like now when you see it, you'd recognize it as a cooler. But it's far more dense than what you pick up to put your beer in on weekends. Yeah, it's got a different lip. In fact, we got custom lips for different types of industries. A lot of it's for shipping organs, arms, livers, whatever. A lot of it's for shipping for days, meat products or whatever. People that have been shipping and putting liners and coolers and makeshift insulation. Spoilage was 10 to 30%. If you put the use this type of cooler, spoilage is taken down to zero over the course of three days with dry ice. Blah, blah, blah. They're specialty coolers. They're so. 
+Speaker A: But anyway, I know you came in and kind of fixed this problem, but the sales front, there was never any sales frontage here and now there is a sales frontage. I know you have the icf. You have these things. There's the ESP and the essential or aps. What? Like is there any sales front end stuff? But that's like. 
+Speaker B: What do you mean front end? 
+Speaker C: You feel like that? 
+Speaker D: Oh, I feel like. Well, I think it's important to see what we do. 
+Speaker A: Yeah, yeah. 
+Speaker D: So this is, this is a really ugly part. 
+Speaker B: This is the worst example. But. But you're right, this is what it was in. 
+Speaker A: Oh, is this the new one? 
+Speaker B: No, this is, this is a. This is not the 360. This is a company that everybody hates. But it is an ICF but that's. That's not. Is that a bumper or what? 
+Speaker D: That was the white one. The black one? 
+Speaker B: No, the black one. 
+Speaker D: The Celestique. The. The new. 
+Speaker C: We do. 
+Speaker B: We make a lot of bumper cores, which is what that is. 
+Speaker A: Yeah. 
+Speaker D: So that is for the new Cadillac. 
+Speaker B: Oh, really? 
+Speaker A: Oh, the new electric Cadillac. 
+Speaker D: Yeah. 
+Speaker B: Oh, cool. They'll sell tens of those. Oh, that's the. That's the Fox. Yeah. But anyway, this is the absolute worst possible. 
+Speaker D: It is. 
+Speaker B: This isn't even one of our. We didn't either. That's a. 
+Speaker D: It was the smallest one I could grab. 
+Speaker A: No, I got you. 
+Speaker C: Is that used in building? Yeah, yeah. Okay. 
+Speaker A: In construction. 
+Speaker D: So that is the end cap to escape for that scale. That's what that is. 
+Speaker C: Do you guys. Are you guys involved in, like the data center market at all? 
+Speaker B: Data center market? You lost me with that comment. Yeah. 
+Speaker C: So, like, companies. Companies that produce and that do construction on data centers are like, absolutely booming at the moment. And they need. So I used to work in. 
+Speaker A: They're selling the shells. 
+Speaker C: Yeah. I used to work at intel in energy conservation, which then turned into asset management. And that was a lot of like, can we reduce the energy consumption of factories, data centers and then like the asset performance of those things. Insulation is huge in those industries. 
+Speaker B: So this is the single. Backed up by real data, the single highest rated possible energy efficient product that you can build any kind of structure out of climate. So and it's this. I've studied this since the mid-80s. This building was built in 81. It's built out of ICFS. And back then nobody even heard of them. Yeah, we had to import them from. From Canada. But you've got a regulated insulation on the exterior and interior. There's a. For 30 years there's been a debate as to whether the interior should be insulated or not. But nonetheless, you've got thermal mass and you've got a heavy thermal mass that doesn't transmit very well. So basically you're maintaining temperature, this thermal mass on two sets of insulation. So it has to. Whatever's outside has to battle to get through this. Then the first thing it hits is this thermal mass, which actually has a good insulation value being maintained temperature wise from the interior temperature. There's a massive castle literally over here in Ozark that I was talking to the guy that built that. We're doing some business with him, but he ran painting through this to passively run solar heated or cooled. Not solar cooled, but heated or cooled water through the walls as an experiment because he Owns an ICF company as one of his side projects. And that's been the big problem with, with that type of cooling systems other than just forced air cooling in homes and whatever is sweat in humid areas like we have here. Well, with this you can cool that core. The house can't get warmer than the core, but the insulation keeps you from sweating. So there's so many things, but just having the concrete and the insulation. Yeah, extremely efficient. They built a house over in Joplin about 15 years ago. It's a 20,000 square foot house, 10,000 foot footprint, two stories, 14 foot ceilings upstairs and downstairs. And they estimated at the time, the month it was heat pump. So they estimated the monthly cost to be about $40 a month to heat or cool this, this 20,000 square foot house. Now probably not quite double that, but still. 
+Speaker D: Yeah, just walk downstairs to the conference room. It's very cold all the time. 
+Speaker B: Well, bad example, but you're right, it's always cold down there. But yeah, I mean it's, it is the single most efficient way to build without costing insane amounts after you. I mean the efficiency is supposed to be efficient, right? 
+Speaker C: Yeah, but. 
+Speaker B: Yeah. 
+Speaker C: So last year about half of the GDP growth in the entire country came from data center build out. 
+Speaker B: Really? 
+Speaker C: Yeah. 
+Speaker B: Also, it's fireproof, tornado proof. 
+Speaker A: The Palisades fire. 
+Speaker B: The picture of the in the wall. 
+Speaker D: Show them the picture out there. 
+Speaker A: Oh, I didn't see that. 
+Speaker B: There's one in the. 
+Speaker A: It's made of icf. Yeah, the only one that didn't burn down in Hollywood or whatever the hell it was. 
+Speaker B: There's a whole hillside burned out. And the only one. 
+Speaker D: So we have the Laguna beach one out there from the Laguna beach fire. 
+Speaker C: Wow. 
+Speaker A: ICF untouched. Tornado untouched. 
+Speaker C: Yeah. 
+Speaker A: Machine gun. 
+Speaker B: Yeah. Well, that's what this guy was playing. He took his 50 and shot the wall just to prove that it was that safe. 
+Speaker D: Make sure you have good concrete. 
+Speaker B: Yeah, you got it. And that's the other thing. So. And this doesn't, this, this conversation doesn't need to consist of this. This conversation. Yeah. 
+Speaker A: Of course. 
+Speaker B: To hope, maybe put a, put a nail on it finally. But when you the, when you strip, there's something about how concrete cures. It cures fully over the course of years, not days or weeks. Now they're stripping it within 24 to 48 hours after they pour it. The moment you strip it, there's something about the cure that it stops hardening at that point, it's done. They leave it in these. And over the course of three years, that's where I guess my understanding is it never stops theoretically but after about three years it reaches its peak hardness within 97% something anyway at that point it's a little more than twice it's two point xxx whatever times harder than concrete that was stripped within 48 hours after it was poured because they never pull the forms. I don't know it has to do with retained gases. I don't know I had. I'm not the guy but I know that the testing that's what it does. So it's much harder than just if you had a 6 or 8 inch wall in the first place. So they love but from a sales front earthquakes, tornadoes, the whole thing. Yeah I know. 
+Speaker A: There was effectively zero sales from DVC at all for ever because it was just pick up the phone order takers and so that We've changed that since 
+Speaker B: I got here completely. Yeah for like. Like we're honestly so when I got here you you that you'll have an interest in this because of who owns the place. But our forecast when I first got here I started doing that day one it was before and soon after tipping I was just looking at the sales because of the person was planning on retiring he wasn't putting any effort into sales. We had a. We tapered down into zero within about four and a half years like zero 
+Speaker A: sales forecast was we're Tapering to zero. 
+Speaker D: Yeah 28, 29. 
+Speaker B: Yeah. And now we are good, bad or indifferent. Only good. Where we're looking at concerns starting next year over meeting capacity. I'm using a build to budget sell to budget model that I've always used. And basically what it means is I tell my salespeople you can't sell beyond this because we can't produce it. We first have to recruit, rebuild and revamp our infrastructure to be able to produce it. Things are tough right now as I'm sure you're aware but this was always. This year was always projected to be our worst worst year probably in history. 
+Speaker D: It absolutely well and 
+Speaker B: last year into this year. 
+Speaker A: Do you know when that's coming out? June or whatever. 
+Speaker B: We're in June. We start to taper up. I will give kudos to Tiffany but Tiffany and I sat down and we talked about it a lot but her. Her ability to actually juggle has come in more. More handy than I could ever that. 
+Speaker A: Is that mostly like what you're talking about for the data side of like 
+Speaker B: cogs versus it's just flat out being able to determine and it didn't go well. All of it. But it went as good as it possible. 
+Speaker D: Yes and no. So a lot of it is. AI can do a lot. But knowledge of the industry, knowledge of our sales team. Knowledge like whatever. I. What was I. Less than.002% off of our forecast of last year. 
+Speaker B: Wow. Her which is short midterm forecast was like I'd never seen in my life. And I'm forecasting is what I made my career out of. Yeah. 
+Speaker D: And a lot of that is capacity studying. Truly building a capacity model for everyone. Which by all means I'm always here to. I'm not AI. AI is so much smarter than I will ever be. Right. But take my knowledge and put that in and yeah. Help make it better. 
+Speaker C: Yeah. 
+Speaker D: Is super exciting to me because that's only going to get you in less of a, you know, more of a percentage. Because like he said, we have two years in about two years where we have multiple different companies coming to us winning. But hey, do we have enough K68 capacity? Do we have enough 10? 
+Speaker B: We would have never even been able to talk to before because of the other salesman. I put him down but he had no way to get it. Jesse, man, he just this guy that we hired and with direction. He needs direction but he is boring his way into companies that. That could have. Would have never even spoke to us before. 
+Speaker D: So to the point where we may need more machines. 
+Speaker A: I don't know. 
+Speaker B: Oh there's no question. 
+Speaker C: Question. Do you have. Do you have room in. In the factory to put more stuff in there? 
+Speaker B: We have a plan. As I look across. You wouldn't know what that's about. 
+Speaker A: But there's a. 
+Speaker B: There's a facility over here that we could actually sell. When I say sell. We could put somebody in charge of bringing in business. We. They do injection molding across here. We own the company. Yeah. But they have never. It's always been passive sales. If someone knocks on our door, we'll walk quote or something. 
+Speaker C: Yeah. 
+Speaker B: But that I know that Caroline is looking at possibly doing some injection molding. If so she's building a facility for that. If not then. If not. But a huge part of our probably ICF operation could fit in that building. 
+Speaker C: Nice. 
+Speaker B: We've got then the efficiencies we've got. We're running at about between 50 and 55% actual efficiency per machine out there anyway. We've got a model that with our current footprint we should be able to produce about 28 to 32 million a year without changing our footprint. That's. And right now we're what, 16? Are we around 16? 17 trajectory? Not, I mean, based after we get out of this slump for 26, 27, 26, we're looking at what, 27, 20, 
+Speaker D: it should be about 18 to 19. 
+Speaker B: Yeah, okay. Yeah, that's right. 
+Speaker D: I was sorry my brain died. 
+Speaker B: There are not 10 months in a year. There's 12 months in a year, aren't there? But anyway, right now it's all about efficiencies. But we are going to look at capacity issues very, very quickly. But we do have a place to expand. 
+Speaker A: One thing that, and this is actually before anything Amicor related, was when I went to mpi, I was helping their engineering department because one of that was in their. Their bottleneck is engineering. And one of their engineering issues was throughput. And then I built an AI tool that basically coded it translated 1980s ladder logic from obsolete systems to the modern version that is already obsolete. 
+Speaker D: Come sit with me and let me let you be in my cms. 
+Speaker A: Okay. So that's what I was doing with them. That quickly escalated beyond my capabilities. So Wes kind of took over that project and started leading it, which was the therapy person. And what I had built was an 80% solution, meaning that, you know, I keep getting hit. 
+Speaker B: So I got to click and drag. 
+Speaker A: Here's all the info. Now it's 80% of the way there and you have to click, you know. So Wes basically explained to their engineering team, the guy was heading the project, Mark, and was like, hey, like, I can build you to 90% to 95% solution almost immediately. Like, it's gonna be days or maybe weeks, but for 95% to 100%, it's very difficult because all that's left is the critical thinking part. And so what it's doing is that allows all the people who, who were firing at all cylinders dealing with, basically they were just dealing with, interacting with the data. Now they're dealing with, hey, I can do my fucking job. 
+Speaker C: Which is so wonderful. 
+Speaker A: Do the fucking thing. 
+Speaker C: Just do the thing. 
+Speaker D: Yes. 
+Speaker A: I don't have time to do the thing because I don't have extra data. 
+Speaker C: So, yeah, we like to try to get people to that 90% solution as fast as possible. Because to go from 90 to 100 or 90 to 95 or 95 to 100, you're talking about like a 5 to 10x longer period than to go from like 0 to 90. But if you can continuously improve the system based on the feedback of the user, rather than trying to extract all the information from the user up front, you'll get a better solution in the end. 
+Speaker D: Well, and at the end of the day, AI is phenomenal. But it only gets you to 92, 93% because you still. 
+Speaker A: It's just shortcutting. 
+Speaker B: It. 
+Speaker D: It is, yeah. 
+Speaker A: But if you can integrate the shortcut, it's like, okay, well now I can do my job and. Well, and my job is not to 
+Speaker B: do the stupid shit. 
+Speaker A: My job is to make a decision next. 
+Speaker C: And the edge cases will only come up every so often. So trying to build in all these edge cases up front just means that it would take you a really long time to build the thing. But if you just solve the edge case when it happens and then write that into the system so that the next time the edge case comes up that the system knows about that edge case and can account for it, then eventually, over time you get to the point where, you know, you can start focusing on other stuff hopefully. 
+Speaker D: Absolutely. 
+Speaker C: Because I'm sure there's, I'm sure there's plenty of other things that you could, you could spend your time on. It's just that you have to spend 20 hours a week working with data because there's no other way for you to get your job done. 
+Speaker D: You are correct. I'm looking at something that I would show you. I don't. Month ends really good. This, this is terrible. I just, I just pulled a very simple balance sheet up to be like, what am I going to deal with this month? What issues am I going to run into? And it's like our retained earnings account isn't even pulling proper. 
+Speaker A: Oh, it was funny. You guys came up by accident. I used AI to write a custom dashboard for Carolyn to run her properties and basically the larger portfolio, that's not company specific, but a part of that was the back end data I loaded into it was every loan she has. 
+Speaker B: You were telling me that part, for 
+Speaker A: the most part it comes with that. And it pulled, picked up a lot of the DPC loans and injected them in. So I had like a random. It had built me a custom page for an included DPC information. So I just go in and like turn it off. I was like, actually don't keep. I don't want to see any of this stuff in this dashboard. But it was funny because like that's half of it is like everything's in so many different places. So no one that. The real answer is like, are we making. The real question is, are we fucking making any money or not? And can we do anything about it? 
+Speaker C: Yeah. 
+Speaker B: Yeah. 
+Speaker A: And to Answer that question is like kind of yes, but maybe no, but maybe in May. It's like, you know, we should probably. Yeah. You do all that. 
+Speaker D: I do do all that. My, my most fun was Mike being like, give it to me. Or I was like, I'm not Mike. Mike. It's, it's. Hold on. Because a lot of it is building something to be able to truly forecast something, to truly look at trends. Because IHS Global Forecast, which I just sent a message to our sales engineer who is the admin for the ihs naturally, he's going to be the admin for that because he needs to know who to hit up for these new vehicle sales. 
+Speaker C: Yeah. 
+Speaker D: And. But I do have to find the data as well. And I pull that into a, into a spreadsheet. Then I do historical customers on a spreadsheet. Tier 2. Knowing what Tier 2 companies we're going to work with. Tier 1 naturally, like, but most of what's coming up now, we're going to be tier 2 people don't go direct to manufacturing. 
+Speaker B: That's. That's the current trend probably for the next five years at least, which I don't like, but it is what it is. 
+Speaker D: Well, because we have a bumper, right? 
+Speaker A: Yeah. 
+Speaker D: But they're going to send it to a company that's actually going to produce the whole bumper. 
+Speaker C: Right. 
+Speaker D: So that makes us tier two. So that IHS Global Forecast, I would love to get that to you for the next six months, give you our EDI information pool, our customer pool, along with what programs we're running for the next six months and let it see what yours says versus what I've come up with. Naturally, just to be like, I. Yours should be more correct than me because I'm not a computer. 
+Speaker C: You'll have a lot of that knowledge that's built into it, though, from, from your experience of doing it. So I wouldn't be surprised if like our first attempt is like little bit off and that we need your feedback to get it closer. But then the big benefit then is like, you can start to look at like, oh, there's an outlier here. I need to look into that more without having to go way into the depths of the data that, like, it's all there available to you and you can go into it because if you 
+Speaker D: guys have access to our IHS Global, that'll also allow me to forecast of one of our customers. Well, you signed this, so I can say this, right. Is. Is Slate Automotive. Right. So Jeff Bezos and what else are they planning on doing? Though we may not know it is in ihs, but it's deep in ihs. Yeah, right. So we aren't going to spend the two and a half weeks that it takes to dig through the data that you guys can run in the background and be like, hey, Earl. So like they're actually gonna be doing like three trucks in 2026, like 2028. Like, then I will know naturally. Jesse, here's your next call. I'm assuming all of this obviously helps in sales too. 
+Speaker C: Yeah. 
+Speaker D: Cause who knows at first? 
+Speaker C: Yeah, there's a. It's funny how like, you know, having access to one data point can then lead to, oh, we could use that data point to do this. And then, and then you go searching for more data. And you know, the problem that most manufacturers have is they have all this data, but they're not doing anything with it. 
+Speaker B: That's our key. That's our number one pain point. Right there is all the data available and not doing anything with it. 
+Speaker C: So there's a lot of opportunities. Like machine learning stuff is super powerful. 
+Speaker D: Everyone's getting glasses. 
+Speaker B: Well, I like the idea, actually, when I saw yours, like I was going to ask you. Oh, offline. How you use. Utilizing. But you already basically told us. But I. 
+Speaker A: And I've had these for like three days. So I'm. 
+Speaker D: Where did you get them? 
+Speaker A: You can only order a direct right now. 
+Speaker D: And they're not going to be prescription based, are they? 
+Speaker A: You can get a prescription. 
+Speaker B: I've seen prescriptions that you can get. Not on this brand, but I mean, I've seen. 
+Speaker D: I think my ADHD might not like those. 
+Speaker C: When I put them on, I was like, oh, this is a lot. 
+Speaker B: Yeah, yeah, yeah. 
+Speaker C: But I could see how I would get used to it. 
+Speaker A: So it's like a HUD in a video game or a cockpit. So it overlays it. It's only in green. I'll let you guys see it here in a second. 
+Speaker B: But basically 
+Speaker A: as it's going, it's recording stuff and then it can throw it in, but then it can just pop stuff up. Like one of them sounds crazy, but one of the most useful features is floating like up here. Just like on a computer screen or TV is the time. Nothing crazy, just being like I want. Instead of being like, I wonder what time it is. It's just, it's there. 
+Speaker B: So I can be like, oh, I'm already. 
+Speaker D: Right. 
+Speaker C: I'm already late. 
+Speaker D: Yeah, well, damn. It's not too much. Like you're not all the time. 
+Speaker A: No connected. You turn that off, so probably does 
+Speaker B: what you tell it to do, right? 
+Speaker A: Yeah, it's not smart. I can access more menus if I want. It's connected to my phone, so really, it's a fancy version of. When your phone notifies you, it's a fancy version of what pops up on your watch. 
+Speaker B: It's just you don't have to go like this to see it and look rude when you're in meetings. Like. 
+Speaker A: And. And, yeah, so all the stuff that this can do, like, it's gonna be a software update and your Apple Watch 
+Speaker B: or whatever, is gonna be able to 
+Speaker A: do all of that. If it's not. I mean, they're already spying on us. It's just we get to use it now instead of them just spying on us. 
+Speaker D: What's up, NSA Jeff? 
+Speaker B: Yeah, do what I said. 
+Speaker D: Hey, NSA Jeff. Yeah, yeah, yeah, that's my guy. All the time I'm like. I just feel too connected almost, so. 
+Speaker A: Well, it's not too bad. I mean, it's. I didn't go with, like, meta or, like, smart, smart glasses, where it's got, like, video screens. This just has a green overlay. Like, it looks like it's the Matrix. And it's just whatever info I want to feed it, which most of my job is. I have so much information, I want to keep information at bay, but then shit slips through the cracks. So I'm like, no, I only want these things. And then, like, for instance, my meeting schedule looks insane. I don't need to know what my meeting schedule is. Following my calendar to a T, I just need to know the variances of the meeting schedule. So then make a snapshot decision to coordinate someone to be somewhere. 
+Speaker D: Well, I will get this information. I'll start working on it this afternoon. Just kick it over. Like I said, I don't mind giving you the access to, you know, how to pull it, but most of it we've already extracted, so it should be fairly simple to get it to you. I suggest you a message for the IHS forecast for the next six months to pull that for me, and I can get that over to you as well, see what you guys can do with it. 
+Speaker B: Yeah. 
+Speaker D: Do you want it in a CSV or an Excel file? How do you want the data that. How do you want it? 
+Speaker C: CSU works. 
+Speaker A: Yeah. 
+Speaker D: Okay. That's usually better. 
+Speaker B: Yeah, absolutely. 
+Speaker C: Yeah. 
+Speaker A: I think it's more of a timing thing. Not that they can't do anything. I mean, you know, the voice all the time. But I was like, while you're in person, it's just always faster. So I was pretty blown away at the. Seeing what he did for Mike and basically I can't remember where currently. 
+Speaker B: Where is home? Are you in California? Are you? 
+Speaker C: Yeah. Team's based in California. 
+Speaker B: That's what I thought. 
+Speaker C: Yeah, yeah, yeah. So the research center that Wes was at previously was in just south of San Francisco. So he. He's rooted there with his family and everything like that. Tough to get him out of there. So we're racing the team there. I'm quite flexible. I travel to go visit customers all the time. I like to be at all the trade shows and events and stuff like that. So I'm only in California like two or three months of the year, so 
+Speaker D: you can go wherever. 
+Speaker C: Yeah, yeah. I like to be able to, like, someone sends me a message and says, hey, like there's this event or hey, like there's this person I want you to meet and be able to just go. 
+Speaker B: Just go do it. 
+Speaker C: Yeah, 
+Speaker B: Good. 
+Speaker D: Fantastic. Obviously, we'll talk through. Hugh knows most of the background in this, what it looks like, getting the integration. My only concern with my company here is obviously cost. Right. That's my natural concern right now. So how. How we can utilize this, like you said. But it's the most useful. 
+Speaker B: Yeah. 
+Speaker D: Maybe not the most valuable. But right now, starting small, growing big. So I'll get this information shot over. Thank you for coming. Yeah, this is. This is exciting for. For me, it's a little like, kind of pokes me in the chest a little bit because we did. I like, poured our heart and soul into Epicord just to find out that. I wish we didn't. 
+Speaker A: Yeah. 
+Speaker D: But it's a. It's a program that's not going away, especially for us in the next at least three to five years. 
+Speaker C: Yep. 
+Speaker D: We are. We're glued to it. 
+Speaker C: Yeah. 
+Speaker D: So utilizing tools and I think you're aware everyone is going to the web based. 
+Speaker C: Yeah, yeah. 
+Speaker D: That's what we told May 8 is called Epicor Sunset. 
+Speaker C: Ah, yeah, I'm sure that'd be a fun. 
+Speaker A: United States shuts down, World shuts down. 
+Speaker D: I've already sent my team messages to say, hey, just FYI, work will be done Wednesday night. Everything else will be manual for the rest of the week, period. Yeah, I want everything kept on a manual. Know your backups, have your things printed just in case, because last time they did a major update, it shut us down. So if we're unable to use our mes, we're unable to print labels. 
+Speaker A: I think that's the other Thing that I liked about whatever the hell you guys are doing, however there works, is that they own like DBC would own the servers. So there's no. 
+Speaker C: It's all your data, it's not our data. We don't own it. 
+Speaker A: Like the servers are, it's Amazon AWS or it's Microsoft Azure. But it's not like epicor owns this and is leasing it to you. 
+Speaker D: So we have an on site Azure server server. So with plenty of upgradable space on it, but it's already an active Azure server where my epicore data is backed up daily to where we own the epicore data. Epicore doesn't necessarily update it. So we have a back ended Azure server to update my Epicore every 15 minutes to where if something is to happen to Epicore and they kick and they go offline, I have all of my data accessible at my fingertips. That was a absolute. When I got into here, when I got into here, I said this is who did that. 
+Speaker C: One of the most valuable things that manufacturing companies have is their data. 
+Speaker D: And it's in three, it's in three underground servers. So we have it in Springfield, we have it in New York City and we have it in Washington. So it's backed up three ways is it cost US$400 a month. Who cares? So it's 400amonth. But that was a, that was a non negotiable for me. It was an absolute non negotiable for me. 
+Speaker A: Yeah, that's great. 
+Speaker D: Because we'd had a shutdown of our. 
+Speaker A: It's a good thing because there's no like absolutely, you know, my other house military. 
+Speaker D: Right. So a little foreshadowing of like reality. 
+Speaker C: Yeah, yeah, yeah. Not trusting the vendor at their word that oh, it's 99.9 uptime. Except for the one time that it's down for two weeks. Yeah, yeah. I mean talk to Delta Airlines. 
+Speaker B: Yeah, no kidding. 
+Speaker D: My Delta, my screen didn't work yesterday. That's nothing. Right. But I was so sad. I couldn't see where the plane was. 
+Speaker C: Yeah, like, I mean they, they trusted Crowdstrike at their word and they were shut down for what was it, like three days? Yeah, I was stuck in the US for like four days. I was supposed to fly somewhere else and like every flight just kept getting cancelled. It was like on a rolling. 
+Speaker D: Because they couldn't get people, they couldn't 
+Speaker C: get people off the. Yeah. 
+Speaker B: And it's not like the planes don't work. It's, it's. Now the whole world is Focused it is dropped. Driven by that. 
+Speaker A: Yeah, well what bugged me because I'm. 
+Speaker B: I'm actively doing this. 
+Speaker A: I'm doing a terrible job of it because I should have just done the easy way which is order some servers on online or whatever. But I'm redoing all that misleads data in the back end and I'm redoing. I'm basically gutting our entire software stack and replacing it with our own AI stuff. And I'm like yeah. So finally what I came up with was effectively what you guys said was everything backs up to one place. We're operating off of that. Everything does a no delete but Write append every 10 minute sync and that way like doesn't matter who's operating where within 10 minutes every water will have 
+Speaker B: never lost more than 10 minutes of data. And that's not much here, right? Yeah. 
+Speaker A: And yeah it's nothing crazy but just like you know my, my background was you know B2B service infrastructure. I was you know dealt with a network engineer guys that's what they did. I never dealt with that. But everything we were working with and trained on was I worked from oil company and their network ops is continuously under attack from well maybe the Chinese, Chinese, Iranians and the. And so like we were ingrained to have triple redundancy and this and that segregation. But I liked working off the stack being where it's synced to whatever was supposed to be live because half the stuff's just like and I have a backup. So it's like oh I screwed up. 
+Speaker C: Yes. 
+Speaker A: Revert. 
+Speaker D: Well my concern is before here I was in aerospace engineering. So that's. 
+Speaker C: Yeah. 
+Speaker D: So before that I'm. I'm well aware that we are in automotive manufacturing. Okay so there's two worlds in automotive manufacturing. You have United States and you have not the United States. 
+Speaker B: Yeah. 
+Speaker D: So. So we DPC has been hit twice with attacks in our network. 
+Speaker A: Right. 
+Speaker D: So we are networked but our we're triple layered networked into our network to where if our network was to get hit you would never. No one would know. I would know because I hit a ping but no one else would know. We are about to upgrade our MERAKI system and I know we need. I think we're at our three year mark on our system. 
+Speaker A: Weird. 
+Speaker D: So I'll probably get maybe get with you or someone else of hey, what's our next best. Do we just upgrade the Meraki? Because that's a pretty solid system. No, and I'm not it but I 
+Speaker C: know a little yeah. 
+Speaker A: Unrelated to that, and outside of anything with you. 
+Speaker B: That was a sneeze. That was. Annika. Just. 
+Speaker A: I know we talk about it, but maybe sync with you guys. 
+Speaker C: I don't know. 
+Speaker A: Do you guys do a monthly sync with Carolyn and them and Mike and. Crap. 
+Speaker D: Not Mike. 
+Speaker B: I don't. 
+Speaker A: I like to do a. 
+Speaker B: When you say sync, are you talking a meeting or are you talking at the computer? The company's. You're not. 
+Speaker A: No, no, no, no. Just like a meeting that you guys. 
+Speaker B: Oh, yeah. 
+Speaker A: We. 
+Speaker B: We have a scheduled 
+Speaker D: board meeting. 
+Speaker B: Board meeting once a month, but Caroline's on. 
+Speaker A: Okay. 
+Speaker B: She hasn't been here the last one. It's been two months, but we have. We have it scheduled. 
+Speaker A: Who shows up for that? 
+Speaker B: It's her and Roger. Okay. 
+Speaker A: The. 
+Speaker B: The board for DPC is her, Roger, Tiffany, and myself. Okay. 
+Speaker A: If I can be a part of those, it'd be helpful for me to help facilitate conversations that happen that aren't in your board. 

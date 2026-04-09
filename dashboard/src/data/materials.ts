@@ -1,0 +1,26 @@
+import type { MaterialRequirement } from '../lib/types';
+
+export const materialRequirements: MaterialRequirement[] = [
+  { materialPart: '1713201', description: 'BLACK STRAPPING', onHand: -7023, required: 71649.1, gap: -78672.1, uom: 'FT', status: 'shortage', fromParts: 28 },
+  { materialPart: '1403603', description: 'STRETCH FILM', onHand: -3950, required: 34020, gap: -37970, uom: 'FT', status: 'shortage', fromParts: 15 },
+  { materialPart: 'X2132802', description: 'PRE EXPANDED EPS FOR PACKAGING', onHand: 0, required: 32865.3, gap: -32865.3, uom: 'LB', status: 'shortage', fromParts: 22 },
+  { materialPart: 'ICF6W-BB', description: 'ICF 6" WEB BUILDBLOCK', onHand: -11778, required: 5376, gap: -17154, uom: 'EA', status: 'shortage', fromParts: 5 },
+  { materialPart: 'ICF BL PANEL INSERT', description: 'BL PANEL INSERT', onHand: -48208, required: 2784, gap: -50992, uom: 'EA', status: 'shortage', fromParts: 2 },
+  { materialPart: 'X2132810', description: 'PRE EXPANDED EPS FOR ICF', onHand: 0, required: 2074.4, gap: -2074.4, uom: 'LB', status: 'shortage', fromParts: 4 },
+  { materialPart: '1317216', description: 'P6068', onHand: -3654, required: 1044, gap: -4698, uom: 'EA', status: 'shortage', fromParts: 2 },
+  { materialPart: '1502400', description: 'VB2240 EDGE PROTECTOR', onHand: -44, required: 996, gap: -1040, uom: 'EA', status: 'shortage', fromParts: 13 },
+  { materialPart: '2600029', description: 'HB52 HANWHA EPP', onHand: 1560, required: 992.1, gap: 567.9, uom: 'LB', status: 'ok', fromParts: 1 },
+  { materialPart: '1502402', description: 'VB2248 VBOARD ROLLGUARD BLACK', onHand: -88, required: 616, gap: -704, uom: 'EA', status: 'shortage', fromParts: 9 },
+  { materialPart: '1317217', description: 'T737000 ROLLGUARD EPS', onHand: 2678, required: 474, gap: 2204, uom: 'EA', status: 'ok', fromParts: 13 },
+  { materialPart: '1317203', description: 'B303036M', onHand: 600, required: 318, gap: 282, uom: 'EA', status: 'ok', fromParts: 3 },
+  { materialPart: 'ICF-SIDE WEB INSERT-BB', description: 'ICF SIDE WEB INSERT-BB', onHand: 42420, required: 288, gap: 42132, uom: 'EA', status: 'ok', fromParts: 1 },
+  { materialPart: '2800000', description: 'PIOCELAN 1.38 PCF LP-45ELV', onHand: 0, required: 281.9, gap: -281.9, uom: 'LB', status: 'shortage', fromParts: 1 },
+  { materialPart: '1317228', description: 'CC554804 ICF PAD', onHand: 12933, required: 218, gap: 12715, uom: 'EA', status: 'ok', fromParts: 10 },
+  { materialPart: 'B482223', description: 'B482223 48X22X23 BOX', onHand: 4817.4, required: 208, gap: 4609.4, uom: 'EA', status: 'ok', fromParts: 1 },
+  { materialPart: 'ICF-CNTR WEB INSERT-BB', description: 'ICF-CENTER WEB INSERT-BB', onHand: 3636, required: 144, gap: 3492, uom: 'EA', status: 'ok', fromParts: 1 },
+  { materialPart: 'T483303', description: 'T483303', onHand: -160.7, required: 60, gap: -220.7, uom: 'EA', status: 'shortage', fromParts: 1 },
+  { materialPart: 'PAPER-PALLET', description: 'GREAT NORTHERN PAPER PALLET', onHand: 0, required: 54, gap: -54, uom: 'EA', status: 'shortage', fromParts: 1 },
+  { materialPart: 'IFC CORNER WEB-BB', description: 'ICF CORNER WEB-BB', onHand: -800, required: 48, gap: -848, uom: 'EA', status: 'shortage', fromParts: 1 },
+  { materialPart: '1317209', description: 'T424203 CORNER CUT PAD', onHand: 900, required: 30, gap: 870, uom: 'EA', status: 'ok', fromParts: 1 },
+  { materialPart: '1317220', description: '45 X 48 CORREGATED PALLET', onHand: 550.2, required: 13, gap: 537.2, uom: 'EA', status: 'ok', fromParts: 1 },
+];
