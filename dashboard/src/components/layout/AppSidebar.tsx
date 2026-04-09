@@ -7,6 +7,7 @@ import {
   TrendingUp,
   ListChecks,
   FileWarning,
+  LifeBuoy,
 } from "lucide-react";
 import {
   Sidebar,
@@ -28,6 +29,7 @@ const navItems = [
   { label: "Market Outlook", path: "/market", icon: TrendingUp },
   { label: "Next Steps", path: "/next-steps", icon: ListChecks },
   { label: "Assumptions", path: "/disclaimers", icon: FileWarning },
+  { label: "Support", path: "/support", icon: LifeBuoy },
 ];
 
 export default function AppSidebar() {

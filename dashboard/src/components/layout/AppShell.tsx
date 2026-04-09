@@ -3,6 +3,7 @@ import { SidebarProvider, SidebarInset } from "@/components/ui/sidebar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import AppSidebar from "./AppSidebar";
 import TopBar from "./TopBar";
+import { SupportWidget } from "./SupportWidget";
 
 export default function AppShell() {
   return (
@@ -17,6 +18,7 @@ export default function AppShell() {
             </div>
           </main>
         </SidebarInset>
+        <SupportWidget />
       </SidebarProvider>
     </TooltipProvider>
   );
